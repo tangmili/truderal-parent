@@ -1,0 +1,1 @@
+# 信邦的 maven parent 配置pom
