@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.truderal.framework</groupId>
-    <artifactId>truderal-parent</artifactId>
+    <groupId>com.shanlin.framework</groupId>
+    <artifactId>shanlinframe-parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.5-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
     <!--
         <parent>
             <groupId>org.springframework.boot</groupId>
@@ -188,16 +188,15 @@
         </repository>
     </repositories>
     <distributionManagement>
-
         <repository>
-            <id>xinbang-release</id>
+            <id>shanlin-release</id>
             <name>xinbang-release</name>
-            <url>http://118.178.238.86:8081/repository/maven-releases</url>
+            <url>http://180.169.118.86:9000/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
-            <id>xinbang-snapshots</id>
+            <id>shanlin-snapshot</id>
             <name>xinbang-release</name>
-            <url>http://118.178.238.86:8081/repository/maven-snapshots</url>
+            <url>http://180.169.118.86:9000/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
